@@ -4,12 +4,12 @@ This project allows you to scrape comments from a YouTube video, convert them in
 ## Files Created
 - comments.txt: Contains all the comments of the video in text format.
 - comments_vector_db.index: Contains all the comments of the video in vector database format.
-- 
+  
 ## How to Run the Code
 - Open Google Colab: Go to Google Colab.
 - Upload the Notebook: Upload the provided notebook file to Colab.
 - Run All Cells: Execute all cells in order.
-- 
+  
 ## Detailed Steps:
 - Install Dependencies: Ensure all required packages are installed. The necessary packages include youtube_comment_downloader, faiss, numpy, and sentence_transformers.
 - Setup YouTube Comment Downloader: Initialize the downloader to fetch comments from the specified YouTube video URL.
